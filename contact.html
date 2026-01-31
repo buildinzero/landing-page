@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BuildInZero</title>
+        <link rel="stylesheet" href="webstart14.css" />
+        <style>
+            .contact-section{
+                height: 80vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+            }
+            .contact-section a{
+                background-color: #facc15;
+                width: 220px;
+                text-align: center;
+            }
+            .contact-section a:hover{
+                box-shadow: 4px 4px #000;
+            }
+            
+            @media(max-width: 768px){
+                .contact-section{
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+            <div class="nav-inner">
+                <a href="index.html" class="logo">BuildIn  Zero</a>
+            </div>
+        <!-- SECTION: ABOUT BUILDINZERO -->
+        <section class="section contact-section">
+            
+            <a href="https://www.instagram.com/buildinzero" target="_blank" class="logo">Instagram</a>
+            <a href="www.instagram.com/buildinzero" class="logo">LinkedIn</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=buildinzero@gmail.com"
+               target="_blank"
+               rel="noopener noreferrer" class="logo">Email</a>
+        </section>
+    </body>
+</html>
